@@ -1,0 +1,24 @@
+#container{
+    display: flex;
+    direction: row;
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+    font-size: 1.5em;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: flex-start;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+#b1{
+    justify-self: center;
+}
