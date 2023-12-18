@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- action tells us what todo after the form is submitted -->
+    <!-- to access the inputs in the backend we use anme attribute with the given name we can access the inputs-->
+    <!-- if we put checked it will be checked by default-->
+    <!-- for radio buttons to work their name should be same -->
+    <!-- by default radio and checkbox will give on value but if you want to send value then we need to used value attribute -->
+    <!-- to make a dropdown menu we use select  -->
+    <!-- to make a slider we use range input element -->
+    <!-- to make a text area we use text area -->
+    <h1>Registration Form</h1>
+    <form action="/action">
+        <div>
+            <input type="text" name="firstname" id="fn" placeholder="First Name">
+            <input type="text" name="lastname" id="ln" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="sex">Please Select your gender</label>
+            <select name="gender" id="sex">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </div>
+        <div>
+            <label for="tick">Do you agree to all the terms and conditions</label>
+            <input type="checkbox" name="agree" id="tick" value="yes" checked>yes i agree
+        </div>
+        <button type="submit" value="Register">Register</button>
+            
+    </form>
+</body>
+</html>
